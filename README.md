@@ -42,7 +42,6 @@ public void setX(double x) {
     this.x = x;
 }
 ```
-A mesma estrutura é usada para a coordena y.
 ---
 PONTO 3D | APLICAÇÃO DE HERANÇA
 
