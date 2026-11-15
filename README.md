@@ -1,5 +1,5 @@
 # Representação de Pontos 2D e 3D em Java
-
+---
 Estudos de Programação Orientada a Objetos (POO) em Java.
 O projeto tem como objetivo representar pontos em um plano bidimensional (2D) e em um espaço tridimensional (3D), utilizando classes, objetos, construtores, encapsulamento e herança.
 A implementação utiliza duas classes principais: Ponto2D, responsável por representar pontos com coordenadas X e Y, e Ponto3D, que herda as características da primeira classe e acrescenta uma terceira coordenada, Z.
