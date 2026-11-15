@@ -42,9 +42,9 @@ public void setX(double x) {
     this.x = x;
 }
 ```
-A mesma estrutura é utilizada para a coordenada Y.
+A mesma estrutura é usada para a coordena y.
 ---
-Ponto 3D | APLICAÇÃO DE HERANÇA
+PONTO 3D | APLICAÇÃO DE HERANÇA
 
 A classe Ponto3D utiliza extends Ponto2D para herdar os atributos e métodos disponíveis na classe Ponto2D.
 
