@@ -1,9 +1,11 @@
 # Representação de Pontos 2D e 3D em Java
 
-
 Estudos de Programação Orientada a Objetos (POO) em Java. 
+
 O projeto tem como objetivo representar pontos em um plano bidimensional (2D) e em um espaço tridimensional (3D), utilizando classes, objetos, construtores, encapsulamento e herança. 
+
 A implementação utiliza duas classes principais: Ponto2D, responsável por representar pontos com coordenadas X e Y, e Ponto3D, que herda as características da primeira classe e acrescenta uma terceira coordenada, Z.
+
 ---
 ESTRUTURA DO PROJETO
 
@@ -14,6 +16,7 @@ ESTRUTURA DO PROJETO
 PONTO 2D | DEFINIÇÃO DOS ATRIBUTOS
 
 A classe Ponto2D representa um ponto em um plano bidimensional, utilizando duas coordenadas: X e Y.
+
 Os atributos são declarados como privados (private), aplicando o conceito de encapsulamento.
 
 ```
@@ -23,6 +26,7 @@ public class Ponto2D {
 }
 ```
 O construtor recebe os valores iniciais das coordenadas e utiliza this para atribuí-los aos atributos do objeto.
+
 Também foram implementados métodos getters e setters, permitindo consultar e modificar as coordenadas.
 ```
 public Ponto2D(double x, double y) {
@@ -43,6 +47,7 @@ A mesma estrutura é utilizada para a coordenada Y.
 Ponto 3D | APLICAÇÃO DE HERANÇA
 
 A classe Ponto3D utiliza extends Ponto2D para herdar os atributos e métodos disponíveis na classe Ponto2D.
+
 Além das coordenadas X e Y herdadas, acrescenta o atributo Z, permitindo representar pontos em três dimensões.
 
 ```
@@ -57,6 +62,7 @@ public Ponto3D(double x, double y, double z) {
 }
 ```
 As duas classes possuem o método toString(), responsável por retornar uma representação textual dos dados do objeto.
+
 Na classe Ponto3D, esse método é sobrescrito para acrescentar a coordenada Z à representação herdada da classe Ponto2D.
 ```
 public String toString() {
@@ -64,6 +70,7 @@ public String toString() {
 }
 ```
 super.toString() permite aproveitar a representação das coordenadas X e Y definida na classe pai.
+
 imprimir() também é sobrescrito na classe Ponto3D, adaptando a apresentação das informações.
 ```
 public void imprimir() {
@@ -84,6 +91,7 @@ public static void main(String[] args) {
 }
 ```
 Os valores são passados diretamente aos construtores durante a instanciação dos objetos.
+
 Depois o método imprimir() é chamado para apresentar as informações de cada ponto.
 ```
 Ponto2D  [x=2.0] [ y=1.0]
